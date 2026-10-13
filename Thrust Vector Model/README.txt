@@ -1,0 +1,4 @@
+Thrust Vector Control Mount by Contradius on Thingiverse: https://www.thingiverse.com/thing:4627449
+
+Summary:
+My design for a 74mm Thrust Vector Control (TVC) mount that fits 24mm model rocket motors. Additional components include 2 standard 9G servos as well as M2 &amp; M3 screws, nuts, &amp; washers. More details below.I've also included an arduino sketch for testing with a joystick module. It includes code to convert from a desired output angle to servo input angle, which should be useful.This was made using OnShape. If you want to copy it and make your own version, you can view or copy the project from here:https://cad.onshape.com/documents/237911db7519d9c450da3657/w/1a7eab9f34bca7701ff5ba52/e/d861bb09eab69f4b1a664df2
