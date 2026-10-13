@@ -35,11 +35,6 @@ $$u[k] = K_p e[k] + K_i \sum_{n=0}^{k} e[n]\Delta t + K_d \frac{e[k] - e[k-1]}{\
 * $K_i$: Integral gain accumulating persistent error over time to eliminate steady-state mechanical bias.
 * $K_d$: Derivative gain damping the rate of angular change to prevent overshoot around the $0^\circ$ setpoint.
 
-## Getting Started
-
-1. Clone the repository and open the source code in the Arduino IDE or compile directly with `avr-gcc`.
-2. Mount the MPU-6050 and Arduino Uno onto the stationary base plate, and wire the concentric 3D-printed gimbal servos to an external 5V supply sharing a common ground.
-3. Flash the firmware to the ATmega328P and verify that the gimbal rings self-center to the vertical $0^\circ$ setpoint upon initialization.
 
 ## Author
 
